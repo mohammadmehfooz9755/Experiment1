@@ -2,7 +2,7 @@ import { useState } from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Section from "./pages/Section";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("home");
